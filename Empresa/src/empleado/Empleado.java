@@ -15,6 +15,14 @@ public class Empleado {
     private String direccion;
     private long numero;
     private short opc;
+    
+    public Empleado(String nombre, int edad, String direccion, long numero, short opc) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.direccion = direccion;
+        this.numero = numero;
+        this.opc = opc;
+    }
 
     //Encapsulated
     /**
